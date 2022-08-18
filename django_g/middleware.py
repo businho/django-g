@@ -1,6 +1,6 @@
 from django.http import HttpRequest
 
-from . import local
+import django_g
 
 
 class RequestMiddleware:
@@ -8,4 +8,4 @@ class RequestMiddleware:
         self.get_response = get_response
 
     def process_request(self, request: HttpRequest) -> None:
-        local._HTTP_REQUEST_VAR.set(request)
+        django_g.set_request(request)
