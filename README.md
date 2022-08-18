@@ -6,7 +6,7 @@ Many scenarios need the current request but Django don't have it accessible.
 They expect that your application implement a middleware to use the request,
 but it is burdensome and not reusable.
 
-Other packages, like [django-threadlocals]() do the same thing with threadlocals, but it doesn't work on the
+Other packages, like [django-threadlocals](https://pypi.org/project/django-threadlocals/) do the same thing with threadlocals, but it doesn't work on the
 async world.
 
 ## How to install
