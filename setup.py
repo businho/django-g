@@ -12,9 +12,7 @@ setup(
     tests_require=[
         "flake8<5",
         "pytest",
-        "pytest-black",
         "pytest-cov",
-        "pytest-flake8",
         "pytest-mock",
     ],
 )
