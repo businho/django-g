@@ -35,7 +35,7 @@ jobs:
           python -m pip install "django${{ matrix.django-version }}"
 
       - name: Black
-        run: python -m black --check --diff .
+        run: pip install black && python -m black --check --diff .
       - name: Lint
         run: python setup.py flake8
       - name: Test
