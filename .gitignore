@@ -4,3 +4,6 @@
 *.pyc
 
 .python-version
+
+build/
+dist/
