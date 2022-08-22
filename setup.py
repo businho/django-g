@@ -9,9 +9,9 @@ setup(
     setup_requires=[
         "pytest-runner",
         "flake8",
+        "black",
     ],
     tests_require=[
-        "flake8<5",
         "pytest",
         "pytest-cov",
         "pytest-mock",
