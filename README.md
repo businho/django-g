@@ -1,5 +1,8 @@
 # django-g
 
+> **Warning**
+> AFAIK this project is not in production anywhere, even at Buser. It is a work in progress.
+
 Django global context to get current request from anywhere in your application.
 
 Many scenarios need the current request but Django don't have it accessible.
